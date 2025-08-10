@@ -1,0 +1,31 @@
+app/
+ ├── build.gradle
+ ├── proguard-rules.pro
+ ├── src/
+ │   ├── main/
+ │   │   ├── AndroidManifest.xml
+ │   │   ├── java/com/doktormotor/pelanggan/
+ │   │   │   ├── MainActivity.kt
+ │   │   │   ├── ui/
+ │   │   │   │   ├── screens/
+ │   │   │   │   │   ├── BookingScreen.kt
+ │   │   │   │   │   ├── PromoScreen.kt
+ │   │   │   │   │   ├── HistoryScreen.kt
+ │   │   │   │   │   └── LoginScreen.kt
+ │   │   │   │   └── components/
+ │   │   │   │       └── CustomButton.kt
+ │   │   │   ├── data/
+ │   │   │   │   ├── BookingRepository.kt
+ │   │   │   │   └── models/
+ │   │   │   │       ├── Booking.kt
+ │   │   │   │       ├── Promo.kt
+ │   │   │   │       └── Service.kt
+ │   │   └── res/
+ │   │       ├── layout/
+ │   │       │   └── activity_main.xml
+ │   │       ├── values/
+ │   │       │   ├── colors.xml
+ │   │       │   ├── strings.xml
+ │   │       │   └── themes.xml
+ │   │       └── drawable/
+ │   │           └── logo_doktormotor.png
